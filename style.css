@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.body {
+  position: relative;
+  right: 70px;
+}
+
+.body > img {
+  width: 111.5%;
+}
+
+.overlay {
+  background: transparent;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 5px;
+  right: 0;
+  display: flex;
+}
+
+.left {
+  background-color: #333333;
+  flex-basis: 120px;
+}
+
+.p-gl {
+  position: absolute;
+  width: 70%;
+  height: 152px;
+  left: 30%;
+  top: 65%;
+
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: white;
+}
+
+.nav-gl-v {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  color: white;
+  position: absolute;
+  width: 396px;
+  height: 42px;
+  left: 70.7%;
+  top: 7px;
+  list-style: none;
+}
+
+.nav-gl-v > li {
+  margin-left: 20px;
+}
+
+.nav-gl-v > li > p:hover {
+  cursor: pointer;
+  color: #b59571;
+}
+
+.stol {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+
+  width: 145px;
+  height: 42px;
+
+  background: #b59571;
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.nav-gl-l {
+  position: absolute;
+  width: 120px;
+  height: 99.4%;
+  right: 96%;
+  top: 0px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  height: 46px;
+  margin-top: 20px;
+}
+
+.vector {
+  width: 40px;
+}
+
+.nav-gl-l-b {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: sticky;
+  top: 81%;
+}
+
+.nav-gl-l-b > li {
+  margin-bottom: 40px;
+}
+
+.nav-gl-l-b > li > img:hover {
+  opacity: 90%;
+  filter: brightness(200%);
+}
+
+.nav-gl-l-b > li > img {
+  width: 22.22px;
+  height: 17.78px;
+}
+
+/* main */
+
+main {
+  position: absolute;
+  top: 105%;
+  margin-left: 3%;
+}
+
+.ceo {
+  width: 1076px;
+  height: 381px;
+}
+
+.ceo > img {
+  position: relative;
+  width: 150px;
+}
+
+.flex-ceo > p {
+  width: 526px;
+  height: 266px;
+
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.food_Exxe_Relo {
+  width: 196px;
+  height: 231px;
+
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+.flex-ceo,
+.flex-menu,
+.menu-img,
+.flex-delivery,
+.flex-delivery-button {
+  display: flex;
+
+  justify-content: center;
+}
+
+.menu-h2 {
+  width: 196px;
+  height: 77px;
+
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+.flex-menu > p {
+  width: 526px;
+  height: 191px;
+  margin-left: 10px;
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.flex-menu {
+  margin-bottom: 60px;
+}
+
+.menu {
+  height: 718px;
+}
+
+.border-menu-img {
+  margin: 20px 25px 0;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  width: 360px;
+  text-align: center;
+}
+.border-menu-img > img {
+  position: relative;
+  top: 50px;
+}
+
+.delivery {
+  height: 458px;
+}
+
+.delivery-h2 {
+  width: 306px;
+  height: 154px;
+
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+
+.flex-delivery > p {
+  width: 526px;
+
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.flex-delivery-button {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.but-all {
+  text-align: center;
+  padding: 15px 30px;
+
+  margin-right: 60px;
+  width: 163px;
+  height: 58px;
+  color: white;
+  background: #b59571;
+}
+
+.but-all:hover {
+  border: 1px solid #b59571;
+}
+
+.but-all-traveli {
+  padding: 15px 30px;
+
+  width: 221px;
+}
+
+.map-comtacts {
+  width: 70%;
+  margin-left: 10%;
+}
+
+button {
+  cursor: pointer;
+}
+/* footer */
+
+footer {
+  position: absolute;
+  top: 400%;
+  left: 0;
+  background-color: #333333;
+}
+
+.footer-img {
+  width: 100%;
+}
